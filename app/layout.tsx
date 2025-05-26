@@ -14,10 +14,11 @@ const vercettiFont = localFont({
 });
 
 export const metadata: Metadata = {
-	title: "Tuan Anh Hoang",
-	description: "A fullstack developer by profession, a creative at heart.",
+	title: "Tuan Anh Hoang - Fullstack Developer Portfolio",
+	description:
+		"A fullstack developer by profession, a creative at heart. Specializing in Vue.js, React, Next.js, and modern web technologies.",
 	keywords:
-		"Tuan Anh Hoang, Fullstack Developer, Vuejs, React, Nextjs, Three.js, Creative Developer, Web Development, Angular, JavaScript, TypeScript, Portfolio",
+		"Tuan Anh Hoang, Fullstack Developer, Vuejs, React, Nextjs, Three.js, Creative Developer, Web Development, Angular, JavaScript, TypeScript, Portfolio, Frontend Developer, Backend Developer",
 	authors: [{ name: "Tuan Anh Hoang" }],
 	creator: "Tuan Anh Hoang",
 	publisher: "Tuan Anh Hoang",
@@ -34,24 +35,41 @@ export const metadata: Metadata = {
 			follow: true,
 			"max-image-preview": "large",
 			"max-snippet": -1,
+			"max-video-preview": -1,
 		},
 	},
 	openGraph: {
-		title: "Tuan Anh Hoang - Fullstack Developer",
-		description: "Fullstack developer by profession, creative at heart.",
+		title: "Tuan Anh Hoang - Fullstack Developer Portfolio",
+		description:
+			"Fullstack developer by profession, creative at heart. Specializing in Vue.js, React, Next.js, and modern web technologies.",
 		url: "https://tuananhhoang.com",
 		siteName: "Tuan Anh Hoang's Portfolio",
 		locale: "en_US",
 		type: "website",
+		images: [
+			{
+				url: "/og-image.jpg",
+				width: 1200,
+				height: 630,
+				alt: "Tuan Anh Hoang - Fullstack Developer Portfolio",
+			},
+		],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Tuan Anh Hoang - Fullstack Developer",
-		description: "Fullstack developer by profession, creative at heart.",
+		title: "Tuan Anh Hoang - Fullstack Developer Portfolio",
+		description:
+			"Fullstack developer by profession, creative at heart. Specializing in Vue.js, React, Next.js, and modern web technologies.",
+		images: ["/og-image.jpg"],
+		creator: "@clevirli",
 	},
 	verification: {
 		google: "GsRYY-ivL0F_VKkfs5KAeToliqz0gCrRAJKKmFkAxBA",
 	},
+	alternates: {
+		canonical: "https://tuananhhoang.com",
+	},
+	metadataBase: new URL("https://tuananhhoang.com"),
 };
 
 export const viewport: Viewport = {

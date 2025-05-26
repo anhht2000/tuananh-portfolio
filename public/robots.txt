@@ -1,5 +1,10 @@
+# Allow all crawlers
 User-agent: *
-Disallow: /_next/static/chunks/app/
 Allow: /
 
-Sitemap: https://mohitvirli.github.io/sitemap.xml
+# Sitemap location
+Sitemap: https://tuananhhoang.com/sitemap.xml
+
+# Disallow crawling of any private or admin areas if you add them later
+Disallow: /admin/
+Disallow: /private/
