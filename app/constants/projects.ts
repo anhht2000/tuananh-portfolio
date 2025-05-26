@@ -2,52 +2,53 @@ import { Project } from "../types";
 
 // TODO: Move this to API
 export const PROJECTS: Project[] = [
-  {
-    title: 'Angular Gulp Seed',
-    date: 'Aug 2016',
-    subtext: 'A basic starter project to initialize project using AngularJS and Gulp. It follows MVC architecture and uses standard app structure.',
-    url: 'https://github.com/mohitvirli/angular-gulp-seed',
-  },
-  {
-    title: 'State.js',
-    date: 'Jul 2020',
-    subtext: 'A lightweight library for turning JS objects into observables, providing a convenient API for state management and manipulation.',
-    url: 'https://github.com/mohitvirli/state.js',
-  },
-  {
-    title: 'change-host',
-    date: 'Jul 2020',
-    subtext: 'A CLI tool to manage /etc/hosts entries for local development. It enables quick and easy mapping of IPs to URLs with a single command.',
-    url: 'https://github.com/mohitvirli/change-host',
-  },
-  {
-    title: 'Vaccine Slots Discord Bot',
-    date: 'May 2021',
-    subtext: 'A Discord Bot that sends alerts for COVID-19 vaccine availability based on PIN/district using public APIs.',
-    url: 'https://github.com/mohitvirli/vaccine-slots-discord-bot',
-  },
-  {
-    title: 'Chat bot',
-    date: 'Aug 2024',
-    subtext: 'A streaming chatbot that allows users to switch between different LLMs with custom API keys.',
-    url: 'https://github.com/mohitvirli/chat-bot-vercel',
-  },
-  {
-    title: 'Word Game',
-    date: 'Oct 2024',
-    subtext: 'This word game app offers single and multiplayer modes where players take turns forming words, each starting with the last letter of the previous word.',
-    url: 'https://github.com/mohitvirli/word-game',
-  },
-  {
-    title: 'DJ Gig',
-    date: 'Mar 2025',
-    subtext: 'Hosted a Sundowner event which was recorded and is out on YouTube. Furthermore, I performed a UKG/140 DJ set at a local club.',
-    url: 'https://www.youtube.com/watch?v=oauQSEySkoQ',
-  },
-  {
-    title: 'Portfolio',
-    date: 'Apr 2025',
-    subtext: '[Enter a meta joke].',
-    url: 'https://github.com/mohitvirli/mohitvirli.github.io',
-  },
+	{
+		title: "S-Building",
+		date: "Aug 2020 – Mar 2021",
+		subtext:
+			"Developed backend and frontend modules for a building management system. Responsibilities included database design, REST API development, and UI implementation for web and mobile.",
+		url: "",
+	},
+	{
+		title: "Spa Management",
+		date: "Mar 2021 – Jul 2021",
+		subtext:
+			"Frontend development for a spa management application. Handled UI component implementation and bug fixing.",
+		url: "",
+	},
+	{
+		title: "Lightning68",
+		date: "Jul 2021 – Jan 2022",
+		subtext:
+			"Built and maintained a ticket management system. Focused on UI development, state management, and performance optimization.",
+		url: "https://www.lightning68.com/",
+	},
+	{
+		title: "Creature Display",
+		date: "Feb 2022 – Apr 2022",
+		subtext:
+			"Onsite development of an app displaying detailed data of creatures. Worked on frontend, backend, and layout structure with authentication features.",
+		url: "",
+	},
+	{
+		title: "VietUc English ",
+		date: "Apr 2022 – Jul 2022",
+		subtext:
+			"Created a frontend interface for the education center’s application. Involved in database analysis, UI logic, and user interaction improvements.",
+		url: "",
+	},
+	{
+		title: "Family Mart App (Japan)",
+		date: "Jul 2022 – Jul 2023",
+		subtext:
+			"Frontend development for a large-scale application serving 65,000+ Family Mart stores in Japan. Implemented UIs based on Figma, connected GraphQL APIs, and managed dynamic data flows.",
+		url: "",
+	},
+	{
+		title: "Chatty",
+		date: "Jun 2023 – Present",
+		subtext:
+			"Support that grows with your business: Live chat, AI chatbot, Messenger chat, FAQs and help center.",
+		url: "https://app.meetchatty.com",
+	},
 ];
